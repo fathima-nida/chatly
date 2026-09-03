@@ -85,12 +85,18 @@ class _LoginScreenState extends State<LoginScreen> {
                   textInputAction: TextInputAction.done,
                   validator: (value) => Validators.password(value),
                 ),
-                const SizedBox(height: AppSpacing.xs),
+                const SizedBox(height: AppSpacing.xxs),
                 Align(
                   alignment: Alignment.centerRight,
                   child: TextButton(
                     onPressed: () {},
-                    child: const Text('Forgot password?'),
+                    child: Text(
+                      'Forgot password?',
+                      style: AppTextStyle.small(
+                        color: AppColors.primary,
+
+                      ),
+                    ),
                   ),
                 ),
                 const SizedBox(height: AppSpacing.sm),
