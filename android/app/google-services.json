@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "585617938137",
+    "project_id": "chatly-messaging-app-6266a",
+    "storage_bucket": "chatly-messaging-app-6266a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585617938137:android:879a8e97a16d006b5ad0c8",
+        "android_client_info": {
+          "package_name": "com.example.messaging_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB73zhGm7iCvA1rML-d8ABeBWo7I9c3A9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
